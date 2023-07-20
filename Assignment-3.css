@@ -1,0 +1,44 @@
+body{
+    background-color: #212229;
+    color: #eee;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size:xx-large;
+    /* color: #eee; */
+}
+table, th, tr, td{
+    border:1px solid #eee;
+    border-collapse: collapse;
+    /* padding: 10px 70px 10px 70px; */
+    border-top:none;
+    /* width:71%; */
+    text-align: center;
+    padding: 20px;
+}
+.firstrow{
+    border:none;
+}
+tr{
+    text-align: center;
+    
+}
+.firstcolumn{
+    text-align: left;
+    padding-left: 20px;
+}
+
+button{
+    background-color: red;
+    color: #eee;
+    padding:5px;
+    border-radius: 81px;
+    
+}
+.fa-check{
+    color:#cc7c08;
+}
