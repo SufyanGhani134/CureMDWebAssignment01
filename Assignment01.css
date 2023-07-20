@@ -1,0 +1,102 @@
+body{margin: 0;}
+.container1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+navbar{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.logo img{
+    height: 50px;
+}
+.logo{
+    display: flex;
+    gap: 5px;
+}
+.logo h1{
+    margin: 0;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.container1 ul{
+    list-style: none;
+    display: flex;
+}
+.container1 li{
+    padding: 0px 10px;
+}
+.slogan{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 90px;
+    color: aliceblue;
+}
+header{
+    width: 100%;
+    background-image: linear-gradient(rgb(50, 50, 90, 0.1), rgb(210, 210, 210, 0.1)), url('bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    padding-top: 20%;
+}
+.icons{
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 20%;
+    padding-left: 5%;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    width: 45%;
+    height: 40%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+.fa{
+    padding: 30px 0px;
+    color: aliceblue;
+}
+.circle{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: darkgrey;
+    border-radius: 50px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 238, 239);
+}
+
+.card{
+    display: flex;
+    background-color: #fff;
+}
+.servicesCircle{
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    background-color: blue;
+    border-radius: 38px;
+}
