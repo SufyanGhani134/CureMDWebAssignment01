@@ -1,102 +1,379 @@
-body{margin: 0;}
-.container1{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
 }
-navbar{
+.container1{
+    background-image: linear-gradient(rgba(195, 55, 100, 0.9),rgba(240, 138, 54, 0.9)), url(bg.jpg);
+    color: #eee;
+    font-family: "Poppins", sans-serif;
+    
+    
+}
+.header{
     display: flex;
-    width: 50%;
     justify-content: space-between;
 }
-.logo img{
-    height: 50px;
+.logo p{
+    font-size: 20px;
+    padding-left:160px;
 }
-.logo{
+.logo p:hover{
+    cursor: pointer;
+}
+.menubar{
     display: flex;
-    gap: 5px;
+    color:rgba(255,255,255,.5);
+    gap:10px;
+    padding: 2px 150px 0px 0px;
 }
-.logo h1{
-    margin: 0;
-    padding-top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
+.menubar p{
+    font-size: 17px;
 }
-.container1 ul{
-    list-style: none;
-    display: flex;
+.menubar p:hover{
+    color: #eee;
+    cursor:pointer;
 }
-.container1 li{
-    padding: 0px 10px;
+.menu-icon{
+    padding:10px 150px 0px 0px;
+    display: none;
 }
 .slogan{
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 90px;
-    color: aliceblue;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 115px;
 }
-header{
-    width: 100%;
-    background-image: linear-gradient(rgb(50, 50, 90, 0.1), rgb(210, 210, 210, 0.1)), url('bg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 1150px;
+.slogan h1{
+    font-size: 25px;
+    font-weight: normal;
+}
+.slogan button{
+    background-color: #B40051;
+    color: #eee;
+    border:none;
+    padding: 15px 30px 15px 30px;
+    font-size: 15px;
+    border-radius: 25px;
+}
+.slogan button:hover{
+    color: black;
+    cursor: pointer;
+}
+.plans{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
-header h1{
-    padding-top: 20%;
+h1{
+    font-size:xx-large;
+    /* color: #eee; */
 }
-.icons{
-    width: 30%;
-    height: 50%;
+table, th, tr, td{
+    border:1px solid #eee;
+    border-collapse: collapse;
+    /* padding: 10px 70px 10px 70px; */
+    border-top:none;
+    /* width:71%; */
+    text-align: center;
+    padding: 20px;
+}
+.firstrow{
+    border:none;
+}
+tr{
+    text-align: center;
+    
+}
+.firstcolumn{
+    text-align: left;
+    padding-left: 20px;
+}
+
+.buyNowBtn{
+    background-color: red;
+    color: #eee;
+    padding: 15px 20px;
+    border-radius: 81px;
+    border: none;
+    
+    
+}
+.fa-check{
+    color:#cc7c08;
+}
+.container2{
+    text-align: center;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding-top: 20%;
-    padding-left: 5%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+}
+.container2 h1{
+    color: #CE5671;
+    font-weight: normal;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+.container2 p{
+    color: #888888;
+    font-size: 15px;
+}
+.horizontal-line{
+    border-bottom: solid 3px #B40051;
+    width:50px;
+    border-radius: 2px;
+}
+.container3{
+    display: flex;
+    justify-content: space-between;
+}
+.description{
+    padding-left:130px;
+    padding-top: 20px;
+}
+.description h1{
+    font-weight: normal;
+    font-size: 25px;
+}
+.description p{
+    font-size: 15px;
+    color: #888888;
+    line-height: 22px;
+}
+.description button{
+    background-color: #FFB146;
+    color:#FFFFFF;
+    border: none;
+    padding: 15px 25px 15px 25px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.description button:hover{
+    cursor: pointer;
+}
+.container3 img{
+    height: 350px;
+    padding-top:40px;
+    padding-right:125px;
+}
+.container4{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+    padding-top: 55px;
+}
+.list{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+.services{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 55px 7px 55px;
+    box-shadow: rgb(17 12 46 / 15%) 0px 48px 100px 0px;
+    /* border: solid 1px; */
+}
+.services h1{
+    font-weight: normal;
+    font-size: 20px;
 }
 .icon{
+    color: #FFB551;
+}
+.container5{
     display: flex;
     flex-direction: column;
-    background-color: aliceblue;
-    width: 45%;
-    height: 40%;
-    border-radius: 20px;
-    justify-content: center;
     align-items: center;
-    padding-top: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-top:50px;
+}
+.services p{
+    font-size: 15px;
+    text-align: center;
+    line-height: 22px;
+    color: #888888;
+}
+.seasons{
+    display: flex;
+    gap: 20px;
+    color: #888888 ;
+    border:dotted 1px;
+    width:45%;
+    border-radius: 25px;
+}
+.seasons p{
     letter-spacing: 2px;
+    padding: 0px 20px 0px 26px;
 }
-.fa{
-    padding: 30px 0px;
-    color: aliceblue;
-}
-.circle{
-    text-align: center;
-    width: 100px;
-    height: 100px;
-    background-color: darkgrey;
-    border-radius: 50px;
-}
+.seasons button{
+    background-color: #B40051;
+    border: none;
+    padding: 0px 35px 0px 35px;
+    border-radius: 25px;
+    color: white;
+    font-size: 17px;
 
-.container2{
+}
+.seasons:hover{
+    cursor: pointer;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.images img{
+    height:296px;
+}
+.container6{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color: rgb(244, 238, 239);
+    color: #FFFFFF;
+    /* background-color: #2F3031; */
+    background-image: linear-gradient(rgba(26,27,28,0.9),rgba(26,27,28,0.9)), url(bg.jpg);
+    position: relative;
+    margin-top: 3%;
+}
+.container6 p{
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+}
+.circles{
+    display: flex; 
+    gap: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.dot{
+    height: 12px;
+    width: 12px;
+    border-radius: 12px;
+    background-color: #8E8E8F;
+}
+.dot:hover{
+    cursor: pointer;
+}
+.container7{
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    padding-left: 160px;
+    padding-top: 25px;
+}
+.info-desc{
+    display: flex;
+    gap:40px;
+}
+.info-icon{
+    padding-top: 17px;
+    color: #B40051;
+    
+}
+.info p{
+    line-height: 30px;
+    color:#8E8E8F;
+    font-size:15px;
+    margin-bottom: 0px;
+}
+.user-info{
+    padding-top: 40px;
+    padding-right: 100px;
+}
+.user-info input{
+    border:none;
+    border-bottom: solid 1px #8E8E8F;
+    padding-bottom: 9px;
+    font-size: 16px;
+    width:515px;
+}
+.name-email{
+    display: flex;
+    gap:10px;
+}
+.name-email input{
+    width: 250px;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.message button{
+    padding: 15px 25px 15px 25px;
+    background-color: #B40051;
+    color: #FFFFFF;
+    border:none;
+    border-radius: 25px;
+    font-size:15px;
+    width:27%;
+    /* margin-top: 10%; */
+}
+.message button:hover{
+    color: black;
+    cursor: pointer;
+}
+.footer{
+    text-align: center;
+    background-color: #2F3031;
+    color: #FFFFFF;
+    font-size: 12px;
 }
 
-.card{
-    display: flex;
-    background-color: #fff;
-}
-.servicesCircle{
-    width: 75px;
-    height: 75px;
-    text-align: center;
-    background-color: blue;
-    border-radius: 38px;
-}
+@media  screen 
+  /* and (min-device-width: 320px)  */
+  and (max-device-width: 480px)
+  /* and (-webkit-min-device-pixel-ratio: 1) */
+  {
+
+    /* width: 390px !important; */
+    
+    .menubar{
+            display: none;
+    }
+    .menu-icon{
+            display:block;
+        }
+    .slogan button{
+            border-radius: 50px;
+            font-size: 50px;   
+        }
+    .container3{
+            flex-direction: column;
+        }
+    .container3 img{
+        height:25%;
+        padding-left:10rem;
+    }
+    .list{
+        flex-direction: column;
+    }
+    .list h1{
+        font-size: 50px;
+    }
+    .list p{
+        font-size: 45px;
+        line-height: 70px;
+    }
+    .services i{
+        font-size: 12rem;
+    }
+    .seasons{
+        font-size:25px;
+        width:80%;
+        border-radius: 40px;
+    }
+    .seasons button{
+        padding: 0px 50px 0px 50px;
+        border-radius: 40px;
+    }
+    .images{
+        flex-direction: column;
+        gap: 15px;
+    }
+}  
